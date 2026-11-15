@@ -18,22 +18,12 @@ You need **Node.js 18+** and **MongoDB** running on `localhost:27017`.
 
 ```bash
 npm run setup        # install packages
-npm run seed         # add sample data and demo accounts
+npm run seed         # add sample data
 npm run dev:server   # start the API (port 4000)
 npm run dev:client   # start the app, then open http://localhost:5173
 ```
 
 Run the tests with `npm test`.
-
-## Demo logins
-
-All demo accounts use the password `clubhub123`.
-
-| Email | Role |
-| --- | --- |
-| admin@rvce.edu.in | Admin |
-| arjun.das@rvce.edu.in | Club lead (Coding Club) |
-| priya.menon@rvce.edu.in | Student |
 
 ## Project structure
 
